@@ -41,7 +41,7 @@
 1. Open HACS in Home Assistant
 2. Go to **Integrations**
 3. Click **⋮** (menu) → **Custom repositories**
-4. Add: `https://github.com/narfight/oneminai-homeassistant`
+4. Add: `https://github.com/narfight/1min.ai-hacs-integration`
 5. Select **Category: Integration**
 6. Click **Create**
 7. Search "1min.ai" and install
@@ -51,7 +51,7 @@
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/narfight/oneminai-homeassistant.git
+git clone https://github.com/narfight/1min.ai-hacs-integration.git
 ```
 
 2. Copy the `oneminai/` folder to `~/.homeassistant/custom_components/`
@@ -189,7 +189,7 @@ User (response)
 #### Clone & test locally
 
 ```bash
-git clone https://github.com/narfight/oneminai-homeassistant.git
+git clone https://github.com/narfight/1min.ai-hacs-integration.git
 cd oneminai-homeassistant
 # Copy to ~/.homeassistant/custom_components/oneminai/
 ```
@@ -211,8 +211,8 @@ MIT - See [LICENSE](LICENSE)
 ### Support
 
 - 📖 **1min.ai Documentation**: https://docs.1min.ai/
-- 🐛 **Report a bug**: [GitHub Issues](https://github.com/narfight/oneminai-homeassistant/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/narfight/oneminai-homeassistant/discussions)
+- 🐛 **Report a bug**: [GitHub Issues](https://github.com/narfight/1min.ai-hacs-integration/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/narfight/1min.ai-hacs-integration/discussions)
 
 ---
 
@@ -223,7 +223,7 @@ MIT - See [LICENSE](LICENSE)
 1. Ouvrir HACS dans Home Assistant
 2. Aller à **Integrations**
 3. Cliquer sur **⋮** (menu) → **Custom repositories**
-4. Ajouter: `https://github.com/narfight/oneminai-homeassistant`
+4. Ajouter: `https://github.com/narfight/1min.ai-hacs-integration`
 5. Sélectionner **Category: Integration**
 6. Cliquer **Créer**
 7. Chercher "1min.ai" et installer
@@ -233,7 +233,7 @@ MIT - See [LICENSE](LICENSE)
 
 1. Cloner le repo:
 ```bash
-git clone https://github.com/narfight/oneminai-homeassistant.git
+git clone https://github.com/narfight/1min.ai-hacs-integration.git
 ```
 
 2. Copier le dossier `oneminai/` dans `~/.homeassistant/custom_components/`
@@ -371,7 +371,7 @@ Utilisateur (réponse)
 #### Cloner & tester localement
 
 ```bash
-git clone https://github.com/narfight/oneminai-homeassistant.git
+git clone https://github.com/narfight/1min.ai-hacs-integration.git
 cd oneminai-homeassistant
 # Copier dans ~/.homeassistant/custom_components/oneminai/
 ```
@@ -393,8 +393,8 @@ MIT - Voir [LICENSE](LICENSE)
 ### Support
 
 - 📖 **Documentation 1min.ai**: https://docs.1min.ai/
-- 🐛 **Signaler un bug**: [GitHub Issues](https://github.com/narfight/oneminai-homeassistant/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/narfight/oneminai-homeassistant/discussions)
+- 🐛 **Signaler un bug**: [GitHub Issues](https://github.com/narfight/1min.ai-hacs-integration/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/narfight/1min.ai-hacs-integration/discussions)
 
 ---
 
