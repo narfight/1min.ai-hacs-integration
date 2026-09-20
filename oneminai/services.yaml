@@ -1,0 +1,36 @@
+ask:
+  name: Ask 1min.ai
+  description: >-
+    Envoie une question à 1min.ai et retourne la réponse
+    (utiliser response_variable).
+  fields:
+    prompt:
+      name: Prompt
+      description: La question ou instruction à envoyer.
+      required: true
+      example: "Résume la météo de demain à Paris"
+      selector:
+        text:
+          multiline: true
+    model:
+      name: Modèle
+      description: Modèle IA à utiliser (sinon celui configuré).
+      example: gpt-4o-mini
+      selector:
+        text:
+    web_search:
+      name: Recherche web
+      description: Activer la recherche web pour cette requête.
+      default: false
+      selector:
+        boolean:
+    images:
+      name: Images
+      description: Chemins d'images 1min.ai (attachments.images).
+      selector:
+        object:
+    conversation_id:
+      name: ID de conversation
+      description: UUID d'une conversation 1min.ai existante pour le contexte.
+      selector:
+        text:

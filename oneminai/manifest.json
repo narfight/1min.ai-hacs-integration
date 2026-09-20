@@ -1,0 +1,14 @@
+{
+  "domain": "oneminai",
+  "name": "1min.ai",
+  "codeowners": ["@narfight"],
+  "config_flow": true,
+  "dependencies": ["conversation"],
+  "documentation": "https://github.com/narfight/oneminai-homeassistant",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/narfight/oneminai-homeassistant/issues",
+  "requirements": [],
+  "version": "1.1.0",
+  "homeassistant": "2025.1"
+}

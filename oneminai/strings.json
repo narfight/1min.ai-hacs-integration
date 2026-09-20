@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connexion à 1min.ai",
+        "description": "Entrez votre clé API 1min.ai (disponible dans les paramètres de votre compte 1min.ai).",
+        "data": {
+          "api_key": "Clé API"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Clé API invalide",
+      "cannot_connect": "Impossible de se connecter à 1min.ai",
+      "unknown": "Erreur inattendue"
+    },
+    "abort": {
+      "already_configured": "1min.ai est déjà configuré"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options 1min.ai",
+        "data": {
+          "model": "Modèle IA",
+          "system_prompt": "Prompt système",
+          "local_control": "Traiter les commandes domotiques localement d'abord",
+          "web_search": "Activer la recherche web",
+          "num_of_site": "Nombre de sites pour la recherche",
+          "max_word": "Mots max issus de la recherche web",
+          "history_limit": "Limite de messages d'historique",
+          "request_timeout": "Timeout pour les requêtes API (secondes)"
+        }
+      }
+    }
+  }
+}

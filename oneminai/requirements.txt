@@ -1,0 +1,6 @@
+# Pas de dépendances externes requises.
+# Cette intégration utilise uniquement les bibliothèques intégrées à Home Assistant:
+# - aiohttp (client HTTP async)
+# - voluptuous (schémas de validation)
+#
+# Ces dépendances sont déjà incluses dans Home Assistant 2025.1+
